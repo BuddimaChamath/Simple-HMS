@@ -1,0 +1,73 @@
+/* Basic styling for the entire website */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #3eb0ef;
+    color: #fff;
+    padding: 20px;
+  }
+  header nav {
+    float: left;
+  }
+  header nav ul {
+    list-style-type: none;
+  }
+  header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  header .login-container {
+    float: right;
+  }
+  header .login-container a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  /* Main content styles */
+  main {
+    padding: 20px;
+  }
+  main h1 {
+    text-align: center;
+  }
+  main table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  main table th {
+    background-color: #3eb0ef;
+    color: #fff;
+    padding: 10px;
+  }
+  main table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  main .add-patient-button {
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #3eb0ef;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  
+  /* Footer styles */
+  
